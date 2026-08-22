@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-ink font-body antialiased;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus ring, on top of Tailwind's focus utilities */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid theme('colors.signal');
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background-color: theme('colors.signal');
+  color: theme('colors.base');
+}
+
+/* Thin custom scrollbar so it matches the console aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: theme('colors.base');
+}
+::-webkit-scrollbar-thumb {
+  background: theme('colors.border');
+  border-radius: 8px;
+}
