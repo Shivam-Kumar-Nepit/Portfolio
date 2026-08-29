@@ -14,10 +14,10 @@ export const profile = {
   linkedin: '',
   portfolio: '',
 
-  // Images and PDF from the public/Portfolio folder
-  photoHero: `${import.meta.env.BASE_URL}Portfolio/profile-photo-hero.png`,
-  photoAbout: `${import.meta.env.BASE_URL}Portfolio/profile-photo-about.png`,
-  resumeFile: `${import.meta.env.BASE_URL}Portfolio/Shivam_Kumar_Nepit_Resume.pdf`,
+  // Images and PDF from the public folder
+  photoHero: `${import.meta.env.BASE_URL}profile-photo-hero.png`,
+  photoAbout: `${import.meta.env.BASE_URL}profile-photo-about.png`,
+  resumeFile: `${import.meta.env.BASE_URL}Shivam_Kumar_Nepit_Resume.pdf`,
 }
 
 export const primaryStack = [
