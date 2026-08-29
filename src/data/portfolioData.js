@@ -9,17 +9,19 @@ export const profile = {
   location: 'New Delhi, India',
   email: 'shivamkumarnepit@gmail.com',
   phone: '+91 8384039157',
+
   summary:
     "Results-driven Frontend Developer with 1 year of hands-on experience in React.js development across product-based and IT service environments. Proven track record of building and maintaining real-time, production-grade web applications, integrating complex RESTful APIs, and designing responsive UI modules. Currently pursuing an MCA from IGNOU while delivering high-performance, scalable code in an active product ecosystem.",
+
   // No GitHub / LinkedIn / portfolio link was present in the CV, so none are set.
-  // If you add them later, fill these in and the Navbar/Hero/Contact/Footer
-  // will automatically show the corresponding icons and links.
   github: '',
   linkedin: '',
   portfolio: '',
-  photoHero: './Portfolio/profile-photo-hero.png',  
-  photoAbout: './Portfolio/profile-photo-about.png',  
-  resumeFile: './Portfolio/Shivam_Kumar_Nepit_Resume.pdf',
+
+  // Images and PDF from the public/Portfolio folder
+  photoHero: `${import.meta.env.BASE_URL}Portfolio/profile-photo-hero.png`,
+  photoAbout: `${import.meta.env.BASE_URL}Portfolio/profile-photo-about.png`,
+  resumeFile: `${import.meta.env.BASE_URL}Portfolio/Shivam_Kumar_Nepit_Resume.pdf`,
 }
 
 export const primaryStack = [
@@ -34,17 +36,37 @@ export const skills = [
   {
     category: 'Frontend Development',
     icon: 'frontend',
-    items: ['React.js', 'Redux', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
+    items: [
+      'React.js',
+      'Redux',
+      'JavaScript (ES6+)',
+      'HTML5',
+      'CSS3',
+      'Tailwind CSS',
+      'Bootstrap',
+    ],
   },
   {
     category: 'Backend & Database',
     icon: 'backend',
-    items: ['Python', 'Node.js / Express (MERN Fundamentals)', 'MySQL'],
+    items: [
+      'Python',
+      'Node.js / Express (MERN Fundamentals)',
+      'MySQL',
+    ],
   },
   {
     category: 'Tools & Workflow',
     icon: 'tools',
-    items: ['Git', 'GitHub', 'Bitbucket', 'Jira', 'Visual Studio Code', 'PyCharm', 'REST API Integration'],
+    items: [
+      'Git',
+      'GitHub',
+      'Bitbucket',
+      'Jira',
+      'Visual Studio Code',
+      'PyCharm',
+      'REST API Integration',
+    ],
   },
 ]
 
@@ -108,9 +130,13 @@ export const projects = [
       'react-skeleton-loading UI states integrated to elevate visual UX during asynchronous data fetching and server requests.',
     ],
     role: 'Built the end-to-end onboarding flow, including validation logic and loading states.',
-    tech: ['React.js', 'JavaScript (ES6+)', 'react-skeleton-loading'],
-    github: '', // not provided in CV
-    demo: '', // not provided in CV
+    tech: [
+      'React.js',
+      'JavaScript (ES6+)',
+      'react-skeleton-loading',
+    ],
+    github: '',
+    demo: '',
   },
   {
     id: 'medical-learning-portal',
@@ -160,8 +186,7 @@ export const education = [
   },
 ]
 
-// Nav items are filtered in Navbar based on which sections actually have data —
-// all of them do for this CV, but this keeps the site correct if a section is ever removed.
+// Nav items are filtered in Navbar based on which sections actually have data.
 export const navSections = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
