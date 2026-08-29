@@ -1,7 +1,3 @@
-// All content below is extracted directly from Shivam Kumar Nepit's CV.
-// No experience, projects, links, or numbers have been invented.
-// Update this file if the CV changes — every component reads from here.
-
 export const profile = {
   name: 'Shivam Kumar Nepit',
   title: 'ReactJS Developer',
