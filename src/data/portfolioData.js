@@ -17,9 +17,9 @@ export const profile = {
   github: '',
   linkedin: '',
   portfolio: '',
-  photoHero: '/Portfolio/profile-photo-hero.png',  
-  photoAbout: '/Portfolio/profile-photo-about.png',  
-  resumeFile: '/Portfolio/Shivam_Kumar_Nepit_Resume.pdf',
+  photoHero: './Portfolio/profile-photo-hero.png',  
+  photoAbout: './Portfolio/profile-photo-about.png',  
+  resumeFile: './Portfolio/Shivam_Kumar_Nepit_Resume.pdf',
 }
 
 export const primaryStack = [
