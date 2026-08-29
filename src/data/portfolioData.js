@@ -17,10 +17,9 @@ export const profile = {
   github: '',
   linkedin: '',
   portfolio: '',
-  resumeFile: '/Shivam_Kumar_Nepit_Resume.pdf', // place the CV PDF in /public with this name
-  // Headshots — place these files in /public with these exact names.
-  photoHero: '/profile-photo-hero.png',
-  photoAbout: '/profile-photo-about.png',
+  photoHero: '/Portfolio/profile-photo-hero.png',
+  photoAbout: '/Portfolio/profile-photo-about.png',
+  resumeFile: '/Portfolio/Shivam_Kumar_Nepit_Resume.pdf',
 }
 
 export const primaryStack = [
