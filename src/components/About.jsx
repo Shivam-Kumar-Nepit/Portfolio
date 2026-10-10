@@ -29,7 +29,7 @@ const infoCards = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 sm:py-28 px-5 sm:px-8">
+    <section id="about" className="">
       <div className="max-w-6xl mx-auto">
         <SectionEyebrow index="01" label="About" />
 
