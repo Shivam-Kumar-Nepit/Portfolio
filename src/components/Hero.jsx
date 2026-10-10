@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
 
         {/* Right: headshot with the signature terminal snippet layered on top */}
-        <div className="animate-fadeUp relative mx-auto max-w-sm lg:max-w-none mb-8 sm:mb-16" style={{ animationDelay: '120ms' }}>
+        <div className="animate-fadeUp relative mx-auto w-full max-w-[280px] sm:max-w-[320px] mb-8 sm:mb-16" style={{ animationDelay: '120ms' }}>
           <div className="relative rounded-2xl border border-border overflow-hidden shadow-2xl shadow-black/40">
             <div
               className="absolute -inset-8 bg-signal/20 blur-3xl rounded-full -z-10"
