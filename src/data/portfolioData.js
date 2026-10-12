@@ -17,7 +17,7 @@ export const profile = {
   // Images and PDF from the public folder
   photoHero: `${import.meta.env.BASE_URL}profile-photo-hero.png`,
   photoAbout: `${import.meta.env.BASE_URL}profile-photo-about.png`,
-  resumeFile: `${import.meta.env.BASE_URL}Shivam_CV.pdf`,
+  resumeFile: `${import.meta.env.BASE_URL}Shivam_CV.pdf`, 
 };
 
 export const primaryStack = [
