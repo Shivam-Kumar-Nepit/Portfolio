@@ -7,7 +7,7 @@ export const profile = {
   phone: "+91 8384039157",
 
   summary:
-    "Results-driven Frontend Developer with 1 year of hands-on experience in React.js development across product-based and IT service environments. Proven track record of building and maintaining real-time, production-grade web applications, integrating complex RESTful APIs, and designing responsive UI modules. Currently pursuing an MCA from IGNOU while delivering high-performance, scalable code in an active product ecosystem.",
+    "Results-driven Frontend Developer with 1 year of hands-on experience in React.js development across product-based and IT service environments. Proven track record of building and maintaining real-time, production-grade web applications, integrating complex RESTful APIs, and designing responsive UI modules. Currently pursuing an MCA from Galgotias University while delivering high-performance, scalable code in an active product ecosystem.",
 
   // No GitHub / LinkedIn / portfolio link was present in the CV, so none are set.
   github: "",
